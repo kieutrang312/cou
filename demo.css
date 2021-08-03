@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box {
+   
+    padding-top: 15px;
+   
+   
+}
+.box-con {
+    border: 2px solid;
+    position: relative;
+    background: rgb(187, 184, 184);
+    padding-top: 30px;
+}
+p {
+    padding: 3px 10px;
+   
+}
+.checkbox {
+    position: absolute;
+    top: -10px;
+    padding: 4px 18px;
+}
+b{
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+   
+    /* padding: 4px 32px; */
+    
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+  .box-3 {
+      display: block;
+  }
+  
+ 
+  }
